@@ -1,0 +1,62 @@
+.main-header {
+	text-align: center;
+	background-color: #58B;
+	border: 10px solid #58B;
+}
+h1 {
+	font-size: 32pt;
+}
+
+
+
+.container {
+	margin-top: 40px;
+	border: 5px solid #58B;
+	border-radius: 20px;
+}
+.container-head {
+	text-align: center;
+	margin: 20px;
+}
+.container h2 {
+	display: inline;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.hoverable:hover {
+	color: white;
+	background-color: black;
+}
+
+
+
+.weathertable-container {
+	max-width: 100%;
+	overflow: scroll;
+	overflow-y: hidden; /*prevent vertical scrollbar from appearing*/
+}
+
+.weathertable {
+	display: table;
+	table-layout: fixed;
+}
+
+.weathercell {
+	min-width: 11em;
+	display: table-cell;
+	border: 3px solid #58B;
+}
+
+.weathercell.daily {
+	min-width: 15em;
+}
+
+.weathercell .time {
+	background-color: #AAA;
+	text-align: center;
+}
+
+.weathercell .summary {
+	font-weight: bold;
+}

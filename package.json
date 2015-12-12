@@ -1,0 +1,9 @@
+{
+	"name" : "bluewolf_weather",
+	"version" : "0.0.1",
+	"dependencies" : {
+		"express" : "4.13.x",
+		"node-cache" : "3.0.x",
+		"request" : "2.67.x"
+	}
+}
