@@ -1,4 +1,4 @@
-var app = angular.module('SkyCast', ['ngCookies', 'ngResource', 'angular-chartist']);
+var app = angular.module('SkyCast', ['ngCookies', 'ngResource']);
 
 
 app.controller('MainController', ['$scope', '$cookies', '$resource',
